@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <sstream>
 
 using namespace std;
 
@@ -14,5 +15,7 @@ class Polinomio{
     void setPotencia(int);
     void setCoeficiente(int);
     int getPotencia();
+    int getCoeficiente(int);
+    string toString();
     ~Polinomio();
 };
