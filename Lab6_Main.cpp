@@ -24,6 +24,11 @@ int main(){
           poli[0]->setCoeficiente(num);
         }//Fin for
       }//fin case 1
+      case 2:{
+        for (int i = 0; i < poli.size()-1; i++) {
+          cout<<poli[i];
+        }//fin for
+      }//fin case 2
     }//fin switch
 
   }//Fin while
